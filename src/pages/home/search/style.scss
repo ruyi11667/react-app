@@ -1,0 +1,104 @@
+.searchPage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  .searchCon {
+    width: 100%;
+    height: 100%;
+    .headerCon {
+      width: 100%;
+      height: 44px;
+      box-sizing: border-box;
+      padding: 0 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .cancel {
+        display: inline-block;
+        width: 50px;
+        line-height: 44px;
+        text-align: center;
+      }
+      .form {
+        flex: 1;
+        float: left;
+        height: 30px;
+        display: flex;
+        border-radius: 10px;
+        background: #EFF1F4;
+        justify-content: center;
+        align-items: center;
+        .searchIcon {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          line-height: 24px;
+          text-align: center;
+          font-size: 14px;
+          margin-left: 8px;
+        }
+        .ipt {
+          flex: 1;
+          height: 30px;
+          background: #EFF1F4;
+          border-radius: 10px;
+        }
+      }
+    }
+    .searchWrap {
+      width: 100%;
+      position: absolute;
+      bottom: 49px;
+      top: 44px;
+      left: 0;
+      overflow: hidden;
+      .searchMain {
+        .sortItems {
+          width: 100%;
+          overflow: hidden;
+          .sortItem {
+            float: left;
+            width: 100%;
+            height: 36px;
+            padding: 0 16px;
+            box-sizing: border-box;
+            display: flex;
+            .num {
+              padding: 0 40px 0 0;
+              float: left;
+              color: #dabda6;
+              line-height: 36px;
+            }
+            .tou {
+              float: right;
+              padding: 0 0 0 10px;
+              font-size: 12px;
+              line-height: 36px;
+              color: red;
+            }
+            .tou1 {
+              color: pink;
+            }
+            .name {
+              flex: 1;
+              line-height: 36px;
+            }
+            
+          }
+          .sortItem:nth-of-type(1) .num {
+            color: #ff0b0b;
+          }
+          .sortItem:nth-of-type(2) .num {
+            color: #f86442;
+          }
+          .sortItem:nth-of-type(3) .num {
+            color: #F9B35E;
+          }
+        }
+      }
+     
+    }
+  }
+  
+  
+}

@@ -1,0 +1,52 @@
+.voice {
+  width: 100%;
+  .top {
+    width: 100%;
+    overflow: hidden;
+    .voiceTit {
+      float: left;
+      color: #000;
+    }
+    .more {
+      float: left;
+    }
+  }
+  .voiceItems {
+    width: 100%;
+    overflow: hidden;
+    .voiceItem {
+      width: 100%;
+      float: left;
+      margin: 10px 0;
+      padding-bottom: 5px;
+      .voiceLeft {
+        float: left;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      .voiceRight {
+        height: 50px;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+        .tit {
+          flex: 1;
+          color: #222;
+          font-size: 14px;
+        }
+        .voiceBottom {
+          flex: 1;
+          color: #888;
+          font-size: 12px;
+          .icon {
+            margin-right: 5px;
+          }
+          .voName {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}

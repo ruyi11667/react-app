@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .title {
+    padding: 0 5px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+  }
+  .ipt {
+    flex: 1;
+    height: 28px;
+    text-indent: 1em;
+    line-height: 28px;
+    background: #EFF1F4;
+    border-radius: 10px;
+  }
+  .linkMask {
+    display: inline-block;
+    width: 283px;
+    height: 28px;
+    position: absolute;
+    left: 90px;
+  }
+  .iconfont {
+    position: absolute;
+    right: 16px;
+  }
+}

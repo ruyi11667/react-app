@@ -1,0 +1,27 @@
+.playPage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 101;
+  background: #fff;
+  .wrap {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ccc;
+    .playAudio {
+      width: 100%;
+      height: 100px;
+    }
+    .playImg {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  
+}

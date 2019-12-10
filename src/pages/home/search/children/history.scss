@@ -1,0 +1,27 @@
+.history {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #fff;
+  overflow: hidden;
+  .hisTop {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    .hisLeft {
+      float: left;
+    }
+    .hisRub {
+      float: right;
+      padding: 5px;
+    }
+  }
+  .hisItem {
+    float: left;
+    padding: 10px;
+    background: #EFF1F4;
+    border-radius: 5px;
+    margin: 0 5px 5px 0;
+  }
+  
+}

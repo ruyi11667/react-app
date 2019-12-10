@@ -1,0 +1,62 @@
+.albumWrap {
+  width: 100%;
+  box-sizing: border-box;
+  .top {
+    margin: 10px 0 20px 0;
+    .albumTit {
+      float: left;
+      color: #000;
+    }
+    .more {
+      float: right;
+      color: #999;
+      font-size: 12px;
+    }
+  }
+  .albumItems {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    .albumItem {
+      width: 100%;
+      float: left;
+      margin-bottom: 10px;
+      .albumLeft {
+        width: 80px;
+        height: 80px;
+        float: left;
+        border-radius: 5px;
+        padding-bottom: 10px;
+      }
+      .albumRight {
+        height: 80px;
+        margin-left: 95px;
+        display: flex;
+        flex-direction: column;
+        .alTit {
+          flex: 1;
+          color: #222;
+          font-size: 14px;
+        }
+        .alSubTit {
+          flex: 1;
+          color: #999;
+          font-size: 12px;
+          line-height: 20px;
+        }
+        .alBottom {
+          flex: 1;
+          .icon {
+            color: #aaa;
+            margin-right: 5px;
+          }
+          .alName {
+            color: #aaa;
+            font-size: 12px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}

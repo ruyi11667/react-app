@@ -1,0 +1,72 @@
+.mainCon {
+  width: 100%;
+  .topTitle {
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    .left {
+      float: left;
+      color: #111;
+      font-size: 16px;
+    }
+    .more {
+      float: right;
+      color: #666;
+      font-size: 12px;
+    }
+  }
+  .newItems {
+    width: 100%;
+    padding: 5px 14px 8px 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    .newItem {
+      width: 100%;
+      padding: 4px 0;
+      overflow: hidden;
+      display: flex;
+      position: relative;
+      .leftImg {
+        width: 60px;
+        height: 70px;
+        float: left;
+      }
+      .rightCon {
+        flex: 1;
+        float: right;
+        margin-left: 10px;
+        .tit {
+          width: 300px;
+          color: #333;
+          font-size: 16px;
+          font-weight: normal;
+        }
+        .two {
+          width: 300px;
+          color: #444;
+          font-size: 12px;
+          line-height: 34px;
+        }
+        .three {
+          color: #555;
+          font-size: 12px;
+          position: absolute;
+          bottom: 0;
+          .ll {
+            margin-right: 5px; 
+          }
+          .rr {
+            margin: 0 5px 0 20px;
+
+          }
+        }
+      }
+    }
+    .line {
+      height: 20px;
+    }
+    
+  }
+
+}
